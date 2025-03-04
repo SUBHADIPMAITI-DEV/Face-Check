@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Fact-Check</title>
+</head>
+<body>
+    <h2>Upload Image for Photo Fact-Checking</h2>
+    <form action="/photo_check" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Fact Check Photo</button>
+    </form>
+</body>
+</html>

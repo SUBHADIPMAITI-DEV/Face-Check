@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Fact-Check</title>
+    <link rel="stylesheet" href="static/styles.css">
+<style>
+.button {
+  background-color: #0468aa;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<header>
+        <h1>🧐 Fact Check Hub</h1>
+    <form action="/text_check" method="POST">
+        <input type="text" id="search" name="claim" placeholder="Search for a claim..." required>
+        <button type="submit" class="button">Fact Check</button>
+    </form>
+    </header>
+
+
+</body>
+</html>
